@@ -1,5 +1,5 @@
 # Curva_de_Phillips_BR
-Tentativa de obter uma série histórica da Curva de Phillips brasileira.
+Obtendo uma série histórica da Curva de Phillips brasileira.
 
 Este repositório é um estudo combinado de um fundamento econômico - A curva de Phillips - e a análise de dados por meio de SQL + Python
 
