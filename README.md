@@ -18,3 +18,6 @@ trimestre
 FROM basedosdados.br_ibge_pnadc.microdados
 WHERE trimestre = 4;
 `
+
+A primeira curva plotada é a curva de Phillips de acordo com o modelo ogirinal.
+Já a segunda, é a curva de Phillips expandida ao ajuste das expectativas (que é um modelo mais recente).
