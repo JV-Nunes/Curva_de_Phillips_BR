@@ -3,11 +3,10 @@ Obtendo uma série histórica da Curva de Phillips brasileira.
 
 Este repositório é um estudo combinado de um fundamento econômico - A curva de Phillips - e a análise de dados por meio de SQL + Python
 
-A base da PNADC está disponível no BigQuery e pode ser acessada por meio do (fantástico) site https://basedosdados.org
-Lá, eles disponibilizam os dados já no espaço do BigQuery para a realização de consultas utilizando o serviço de query do Google.
+A base da PNADC está disponível no BigQuery e pode ser acessada por meio do site https://basedosdados.org
+onde os dados estão disponibilizados
 
-O código da minha consulta no BigQuery é este (SQL):
-
+Segue SQL utilizado para a consulta dos dados:
 `
 SELECT 
 vd4001,
@@ -18,6 +17,3 @@ trimestre
 FROM basedosdados.br_ibge_pnadc.microdados
 WHERE trimestre = 4;
 `
-
-A primeira curva plotada é a curva de Phillips de acordo com o modelo ogirinal.
-Já a segunda, é a curva de Phillips expandida ao ajuste das expectativas (que é um modelo mais recente).
